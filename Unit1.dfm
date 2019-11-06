@@ -1,0 +1,210 @@
+object Form1: TForm1
+  Left = 865
+  Top = 217
+  Width = 233
+  Height = 307
+  Caption = 'intan sari'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 217
+    Height = 268
+    Align = alClient
+    Color = clInactiveCaption
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Top = 32
+      Width = 57
+      Height = 20
+      Caption = 'Nilai 1'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Impact'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 72
+      Width = 40
+      Height = 20
+      Caption = 'Nilai 2'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Impact'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 184
+      Width = 41
+      Height = 20
+      Caption = 'Hasil'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Impact'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Panel2: TPanel
+      Left = 1
+      Top = 1
+      Width = 215
+      Height = 24
+      Align = alTop
+      Caption = 'Kalkulator'
+      Color = clTeal
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -19
+      Font.Name = 'Stencil'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 64
+      Top = 32
+      Width = 145
+      Height = 27
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Impact'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Left = 64
+      Top = 72
+      Width = 145
+      Height = 27
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Impact'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Panel3: TPanel
+      Left = 8
+      Top = 112
+      Width = 201
+      Height = 49
+      Color = clSkyBlue
+      TabOrder = 3
+      object Button1: TButton
+        Left = 8
+        Top = 8
+        Width = 41
+        Height = 33
+        Caption = '+'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Impact'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Left = 56
+        Top = 8
+        Width = 41
+        Height = 33
+        Caption = '-'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Impact'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+        OnClick = Button2Click
+      end
+      object Button3: TButton
+        Left = 104
+        Top = 8
+        Width = 41
+        Height = 33
+        Caption = 'x'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Impact'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 2
+        OnClick = Button3Click
+      end
+      object Button4: TButton
+        Left = 152
+        Top = 8
+        Width = 41
+        Height = 33
+        Caption = '/'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Impact'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 3
+        OnClick = Button4Click
+      end
+    end
+    object Edit3: TEdit
+      Left = 56
+      Top = 176
+      Width = 153
+      Height = 28
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Impact'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Panel4: TPanel
+      Left = 56
+      Top = 208
+      Width = 153
+      Height = 41
+      Color = clSkyBlue
+      TabOrder = 5
+      object Button5: TButton
+        Left = 24
+        Top = 8
+        Width = 105
+        Height = 25
+        Caption = 'Hapus'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Impact'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        OnClick = Button5Click
+      end
+    end
+  end
+end
